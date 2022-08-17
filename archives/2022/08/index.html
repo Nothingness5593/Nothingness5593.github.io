@@ -86,17 +86,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/nothingness5593/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>分类</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/nothingness5593/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -161,17 +150,6 @@
 			    <i class="fa-fw fas fa-hashtag"></i>
 			
 			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/nothingness5593/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			分类
 		</a>
           
         </li>
@@ -338,6 +316,9 @@
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
             
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">73</span>&nbsp;字
+            
             
             
             
@@ -405,10 +386,6 @@
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
 
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
 
 
 
@@ -587,7 +564,13 @@ $(function () {
     
     <script src="/nothingness5593/libs/instantpage/instantpage.js" type="module"></script>
     
-
+    <script type="text/javascript">
+        var OriginTitile=document.title,st;
+        document.addEventListener("visibilitychange",function(){
+            document.hidden?(document.title="看不见我...",clearTimeout(st)):(document.title="被发现了!?",st=setTimeout(function(){document.title=OriginTitile},3e3))
+        })
+    </script>
+    
 </body>
 
 </html>

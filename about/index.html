@@ -86,17 +86,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/nothingness5593/categories" class="waves-effect waves-light">
-      
-      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
-      
-      <span>分类</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/nothingness5593/archives" class="waves-effect waves-light">
       
       <i class="fas fa-archive" style="zoom: 0.6;"></i>
@@ -161,17 +150,6 @@
 			    <i class="fa-fw fas fa-hashtag"></i>
 			
 			标签
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/nothingness5593/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-bookmark"></i>
-			
-			分类
 		</a>
           
         </li>
@@ -302,10 +280,6 @@
                                     
 
 
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
-
 
 
 
@@ -327,10 +301,6 @@
                         <div class="social-link">
                             
 
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
 
 
 
@@ -524,48 +494,6 @@
                 
 
                 
-                
-<div id="myGallery" class="my-gallery">
-    <div class="title center-align" data-aos="zoom-in-up">
-        <i class="far fa-image"></i>&nbsp;&nbsp;相册
-    </div>
-    <div class="row">
-        
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/0.jpg">
-                <img src="/nothingness5593/medias/featureimages/0.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/1.jpg">
-                <img src="/nothingness5593/medias/featureimages/1.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        <div class="photo col s12 m6 l4" data-aos="fade-up">
-            <div class="img-item" data-src="/medias/featureimages/2.jpg">
-                <img src="/nothingness5593/medias/featureimages/2.jpg" class="responsive-img">
-            </div>
-        </div>
-        
-        
-    </div>
-</div>
-
-<script>
-    $(function () {
-        let animateClass = 'animated pulse';
-        $('#myGallery .photo').hover(function () {
-            $(this).addClass(animateClass);
-        }, function () {
-            $(this).removeClass(animateClass);
-        });
-    });
-</script>
-
-                
 
             </div>
         </div>
@@ -586,6 +514,9 @@
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">73</span>&nbsp;字
             
             
             
@@ -654,10 +585,6 @@
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
 
-
-    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-        <i class="fas fa-envelope-open"></i>
-    </a>
 
 
 
@@ -836,7 +763,13 @@ $(function () {
     
     <script src="/nothingness5593/libs/instantpage/instantpage.js" type="module"></script>
     
-
+    <script type="text/javascript">
+        var OriginTitile=document.title,st;
+        document.addEventListener("visibilitychange",function(){
+            document.hidden?(document.title="看不见我...",clearTimeout(st)):(document.title="被发现了!?",st=setTimeout(function(){document.title=OriginTitile},3e3))
+        })
+    </script>
+    
 </body>
 
 </html>
