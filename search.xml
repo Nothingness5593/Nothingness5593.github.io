@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>NOIP2012 选择题笔记</title>
+      <link href="/nothingness5593/2022/08/18/noip2012/"/>
+      <url>/nothingness5593/2022/08/18/noip2012/</url>
+      
+        <content type="html"><![CDATA[<p>写的时候可乐翻到键盘上了…怎么会有这种事情……</p><h2 id="NOIP2012-选择题笔记"><a href="#NOIP2012-选择题笔记" class="headerlink" title="NOIP2012 选择题笔记"></a>NOIP2012 选择题笔记</h2><h3 id="第6题"><a href="#第6题" class="headerlink" title="第6题"></a>第6题</h3><blockquote><p>6. 1946 年诞生于美国宾夕法尼亚大学的 ENIAC 属于（ ）计算机。</p><p>A. 电子管 B. 晶体管 C. 集成电路 D. 超大规模集成电路</p></blockquote><p>A</p><p>???<br>这啥啊，容我百度一下</p><p>电子计算机于1946年2月14日在美国宾夕法尼亚大学诞生，发明这台电子计算机的是美国人莫克利和艾克特及其团队。这是一台由美国军方定制打算用于军事的电子计算机。这台计算机将被用于计算弹道，其名称为“ENIAC”。<br>这台电子计算机是一台真正的巨型计算机，占地面积达170平方米，重量更是高达30吨，电子管作为其元器件就用了18000个，因此，这台电子计算机又被称为电子管计算机，每秒可进行5000次运算。“ENIAC”的电子管数量多，加上其体积过大，其耗电功率高达150千瓦左右，因此，这台巨大的电子计算机并不能工作过长时间。</p><p>说这么长一段不就是选A吗&#x3D; &#x3D;</p><h3 id="第7题"><a href="#第7题" class="headerlink" title="第7题"></a>第7题</h3><blockquote><p>7. 在程序运行过程中，如果递归调用的层数过多，会因为（ ）引发错误。</p><p>A. 系统分配的栈空间溢出 B. 系统分配的堆空间溢出</p><p>C. 系统分配的队列空间溢出 D. 系统分配的链表空间溢出</p></blockquote><p>A</p><p>写过bug看过报错的都知道了属于是（</p><h3 id="第8题"><a href="#第8题" class="headerlink" title="第8题"></a>第8题</h3><blockquote><p>8. 地址总线的位数决定了 CPU 可直接寻址的内存空间大小，例如地址总线为 16 位，其最大的可寻址空间为 64KB。如果地址总线是 32 位，则理论上最大可寻址的内存空间为（ ）。</p><p>A. 128KB B. 1MB C. 1GB D. 4GB</p></blockquote><p>D</p><p>但是忘记怎么做的了&#x3D; &#x3D;<br>一会看看录屏</p><h3 id="第9题"><a href="#第9题" class="headerlink" title="第9题"></a>第9题</h3><blockquote><p>9. 以下 不属于目前 3G（第三代移动通信技术）标准的是（ ）。</p><p>A. GSM B. TD-SCDMA C. CDMA2000 D. WCDMA</p></blockquote><p>A</p><p>这种题现在应该不会出现了吧……</p><p>多选题一会在更，先传上去测试一下网站浏览。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> NOIP初赛 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> NOIP </tag>
+            
+            <tag> 初赛 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/nothingness5593/2022/08/16/hello-world/"/>
       <url>/nothingness5593/2022/08/16/hello-world/</url>
